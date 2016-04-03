@@ -1,0 +1,531 @@
+@charset "UTF-8";
+/* CSS Document */
+/*HOME PAGE AND MAIN LINKS */
+
+/* NAVBAR */
+
+.navbar {
+	background-color: white;
+	width: 100%;
+	text-align: center;
+}
+
+#nav {
+	width: auto;
+	height: 40px;
+	padding: 20px;
+	background-color: white;
+	display: inline-block;
+}
+
+/* LINK STYLING */
+
+#homelink {
+	font-size: 16px;
+	font-family: "Courier New";
+	color: black;
+	text-decoration: none;
+	border-bottom: 4px solid #232323;
+}
+
+a:link, a:visited {
+	font-size: 16px;
+	font-family: "Courier New";
+	color: black;
+	text-decoration: none;
+}
+
+/* HOVER LINK */
+
+a:hover {
+    background-color: white;
+	border-bottom: 4px solid #232323;
+}
+
+a:active {
+	background-color: white;
+	border-bottom: 4px solid grey;
+}
+
+#social {
+	width: auto;
+	height: 40px;
+	padding: 0px;
+	padding-left: 20px;
+	background-color: white;
+	display: inline-block;
+}
+
+/*THIS IS THE HEADER */
+
+header {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+
+/*THIS IS THE MAIN BODY */
+
+.photos {
+	width: 100%;
+	height: 269px;
+	text-align: center;
+	margin: auto;
+	background-color: #09BBB2;
+}
+
+mark {
+	color: white;
+	background-color: #09BBB2;
+}
+
+span {
+	color: white;
+}
+
+body { 
+	background-color: white;
+	width: 100%;
+
+}
+
+.container {
+	height: 770px;
+	width: 100%;
+	margin: auto;
+	position: relative;
+	background-color: #E6E6E6;
+	top: 10px;
+
+}
+
+#box1 {
+	height: 335px;
+	width: 25%;
+	background-color: white;
+	margin: auto;
+	float: left;
+	position: relative;
+	left: 25%;
+	bottom: 13%;
+	top: 10px;
+	overflow: hidden;
+	border: 1px solid black;
+}
+#box1heading {
+	width: 100%;
+	height: 60px;
+	background-color: black;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 25px;
+	color: white;
+	float: left;
+	position: absolute;
+	overflow: hidden;
+	
+}
+#box1text {
+	float: left;
+	position: absolute;
+	top: 120px;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 18px;
+	color: black;
+	padding-left: 10px;
+	
+}
+#box1button {
+	width: 50%;
+	height: 25px;
+	background-color: #09BBB2;
+	text-align: center;
+	padding: 5px;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 20px;
+	color: black;
+	float: right;
+	position: absolute;
+	top: 300px;
+	left: 47%;
+	overflow: hidden;
+}
+	
+
+	
+#box2heading {
+	height: 60px;
+	width: 100%;
+	color: black;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+#box2 {
+	height: 350px;
+	width: 24.5%;
+	background-color: white;
+	clear: left; float: right;
+	position: relative;
+	right: 300px;
+	bottom: 130px;
+	border: 4px solid black;
+	overflow: hidden;
+}
+
+#box2text {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 15px;
+	color: black;
+	padding: 10px;
+}
+
+#box3heading {
+	height: 30px;
+	width: 20%;
+	background-color: #E6E6E6;
+	color: black;
+	clear: right; float: left;
+	position: relative;
+	bottom: 320px;
+	left: 340px;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 30px;
+	padding: 10px;
+	text-align: center;
+}
+
+#box3 {
+	height: 250px;
+	width: 22.5%;
+	background-color: #AEAEAE;
+	clear: both; float: left;
+	position: relative;
+	bottom: 320px;
+	left: 320px;
+	border: 5px dashed black;
+	padding: 10px;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 18px;
+	color: black;
+	overflow: hidden;
+	text-align: center;
+}
+
+footer {
+	background-color: #232323;
+	width: 97%;
+	height: 270px;
+	color: white;
+	padding: 20px;
+	position: relative;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 16px;
+	border-top: 7px solid #09BBB2;
+
+}
+
+#footertexthome {
+	width: 30%;
+	height: 180px;
+	background-color: #232323;
+	color: white;
+	float: left;
+	left: -120px;
+	position: relative;
+	font-size: 18px;
+	text-align: center;
+}
+#footertext2home {
+	width: 30%;
+	height: 180px;
+	background-color: #232323;
+	color: white;
+	float: right;
+	left: -130px;
+	position: relative;
+	font-size: 18px;
+	text-align: center;
+}
+
+#footertext {
+	width: 30%;
+	height: 180px;
+	background-color: #232323;
+	color: white;
+	float: left;
+	left: 150px;
+	position: relative;
+	font-size: 18px;
+	text-align: center;
+}
+#footertext2 {
+	width: 30%;
+	height: 180px;
+	background-color: #232323;
+	color: white;
+	float: right;
+	left: -130px;
+	position: relative;
+	font-size: 18px;
+	text-align: center;
+}
+
+/* ABOUT ME PAGE */
+
+.aboutmewrapper {
+	background-color: #E6E6E6;
+	width: 50%;
+	height: 900px;
+	margin: auto;
+	padding: 8px;
+	border: 4px solid black;
+	margin-bottom: 5px;
+}
+
+.aboutmecontainer {
+	background-color: white;
+	width: 92%;
+	height: 760px;
+	margin: auto;
+	border-radius: 35px;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 16px;
+	text-align: center;
+	
+}
+
+#aboutmeimage {
+	background-color: white;
+	width: 52%;
+	height: 250px;
+	text-align: center;
+	margin: auto;
+	padding-top: 5px;
+}
+
+#aboutmetext {
+	width: 60%;
+	margin: auto;
+}
+
+#aboutmesocial {
+	width: 5%;
+	height: 40px;
+	margin: auto;
+	background-color: white;
+	display: inline-block;
+}
+#aboutmebutton {
+	width: 27%;
+	height: 25px;
+	background-color: #09BBB2;
+	text-align: center;
+	padding: 5px;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 20px;
+	color: black;
+	float: right;
+	position: absolute;
+	overflow: hidden;
+}
+
+ h2 {
+	 text-align: center;
+	 font-family: "Courier New", Courier, monospace;
+	 font-size: 32px;
+	 color: white;
+	 font-weight: 100;
+ }
+ #photoheading {
+ 	width: 50%
+ 	background-color: white;
+ 	height: 30px;
+ 	text-align: center;
+ 	font-family: "Courier New", Courier, monospace;
+ 	font-size: 30px;
+ 	color: black;
+ }
+ 
+ .photocontainer {
+ 	background-color: #E6E6E6;
+ 	width: 90%;
+ 	position: relative;
+ 	margin: auto;
+ 	border: 5px dotted black;
+ 	border-radius: 45px;
+ 	top: 15px;
+
+ }
+ 
+ #phototext {
+ 	width: 50%
+ 	background-color: white;
+ 	height: 70px;
+ 	text-align: center;
+ 	font-family: "Courier New", Courier, monospace;
+ 	font-size: 22px;
+ 	color: #09BBB2;
+ 	padding: 20px;
+ }
+ 
+ #line1 {
+ 	width: 92%;
+ 	background-color: #E6E6E6;
+ 	text-align: center;
+ 	margin: auto;
+ }
+  #line2 {
+ 	width: 92%;
+ 	background-color: #E6E6E6;
+ 	text-align: center;
+ 	margin: auto;
+ }
+  #line3 {
+ 	width: 92%;
+ 	background-color: #E6E6E6;
+ 	text-align: center;
+ 	padding-bottom: 30px;
+ 	margin: auto;
+ }
+ .photofooter {
+	background-color: #232323;
+	width: 97%;
+	height: 260px;
+	color: white;
+	padding: 20px;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 16px;
+	border-top: 7px solid #09BBB2;
+	float: left;
+	position: relative;
+	top: 30px;
+	
+
+}
+
+.mediacontainer {
+	background-color: #09BBB2;
+	width: 80%;
+	height: 1100px;
+	position: relative;
+	margin: auto;
+	border-radius: 10px;
+	border: 2px solid black;
+	bottom: 20px;
+
+}
+#mediaheading {
+	background-color: #09BBB2;
+	height: 50px;
+	width: 50%;
+	text-align: center;
+	font-family: "Courier New", Courier, monospace;
+ 	font-size: 30px;
+	color: white;
+	margin: auto;
+	padding: 10px;
+}
+#mediatext {
+	background-color: #E6E6E6;
+	height: 390px;
+	width: 60%;
+	text-align: center;
+	font-family: "Courier New", Courier, monospace;
+ 	font-size: 18px;
+	color: black;
+	margin: auto;
+	padding: 30px;
+	border-radius: 35px;
+	border: 2px dashed black;
+}
+
+#mediatext2 {
+	background-color: #E6E6E6;
+	height: 390px;
+	width: 60%;
+	text-align: center;
+	font-family: "Courier New", Courier, monospace;
+ 	font-size: 18px;
+	color: black;
+	margin: auto;
+	padding: 30px;
+	border-radius: 35px;
+	border: 2px dashed black;
+}
+
+.designcontainer {
+	background-color: #E6E6E6;
+	border: double black;
+	width: 70%;
+	height: 600px;
+	position: relative;
+	margin: auto;
+	bottom: 20px;
+
+}
+#designheading {
+	background-color: #E6E6E6;
+	height: 40px;
+	width: 50%;
+	text-align: center;
+	font-family: "Courier New", Courier, monospace;
+ 	font-size: 30px;
+	color: black;
+	padding-top: 20px;
+	margin: auto;
+	
+}
+#designtext {
+	background-color: #E6E6E6;
+	height: 60px;
+	width: 50%;
+	text-align: center;
+	font-family: "Courier New", Courier, monospace;
+ 	font-size: 18px;
+	color: black;
+	padding-top: 5px;
+	margin: auto;
+	
+}
+
+#design1 {
+	background-color: white;
+	height: 350px;
+	width: 80%;
+	text-align: center;
+	padding: 20px;
+	margin: auto;
+	position: relative;
+	top: 30px;
+	border-radius: 40px;
+	
+	
+}
+#designbutton {
+	width: 50%;
+	height: 25px;
+	background-color: #09BBB2;
+	text-align: center;
+	padding: 5px;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 20px;
+	float: right;
+	position: absolute;
+	top: 330px;
+	left: 25%;
+	overflow: hidden;
+}
+#copyright {
+	width: 100%;
+	height: 10px;
+	position: absolute;
+	float: right;
+	left: 800px;
+	top: 280px;
+
+}
+
